@@ -27,26 +27,37 @@ header {
 a {
     text-decoration: none;
     color: rgb(194, 84, 4);
+    font-size: 10px;
 
 }
 
 a.Home {
+    justify-content: center;
+    align-content: center;
     transition: 1s ease;
 }
 
 a.about {
+    justify-content: center;
+    align-content: center;
     transition: 1s ease;
 }
 
 a.ex {
+    justify-content: center;
+    align-content: center;
     transition: 1s ease;
 }
 
 a.pr {
+    justify-content: center;
+    align-content: center;
     transition: 1s ease;
 }
 
 a.cm {
+    justify-content: center;
+    align-content: center;
     transition: 1s ease;
 }
 
@@ -55,7 +66,7 @@ a.Home:hover {
     border: solid  rgb(194, 84, 4);
     border-radius: 25px;
     justify-content: center;
-    font-size: 25px;
+    font-size: 15px;
     transition-duration: 1s;
     transform: scale(1.1);
 }
@@ -65,7 +76,7 @@ a.about:hover {
     border: solid  rgb(194, 84, 4);
     border-radius: 25px;
     justify-content: center;
-    font-size: 25px;
+    font-size: 15px;
     transition-duration: 1s;
     transform: scale(1.1);
 }
@@ -75,16 +86,18 @@ a.ex:hover {
     border: solid  rgb(194, 84, 4);
     border-radius: 25px;
     justify-content: center;
-    font-size: 25px;
+    font-size: 15px;
     transition-duration: 1s;
     transform: scale(1.1);
 }
 
 a.pr:hover {
 
-    font-size: 25px;
+    font-size: 15px;
     border: solid  rgb(194, 84, 4);
     border-radius: 25px;
+    justify-content: center;
+    align-items: center;
     transition-duration: 1s;
     transform: scale(1.1);
 }
@@ -94,7 +107,8 @@ a.cm:hover {
     justify-content: center;
     border: solid  rgb(194, 84, 4);
     border-radius: 25px;
-    font-size: 25px;
+    font-size: 15px;
+    align-content: center;
     transition-duration: 1s;
     transform: scale(1.1);
 
@@ -394,6 +408,49 @@ footer {
     p.About{
 
         width: 150px;
+    }
+
+
+}
+@media (max-width:390px){
+    a.Home:hover {
+        width: 80px;
+        font-size: 15px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a.about:hover {
+        width: 80px;
+        font-size: 15px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a.ex:hover {
+        width: 80px;
+        font-size: 15px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    a.pr:hover {
+        width: 80px;
+        font-size: 15px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    a.cm:hover {
+        display: flex;
+        width: 80px;
+        font-size: 15px;
+        height: 40px;
+        align-items: center;
     }
 
 }
