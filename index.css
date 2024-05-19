@@ -396,5 +396,9 @@ footer {
         width: 50PX;
         font-size: 9PX;
     }
+    p.About{
+
+        width: 150px;
+    }
 
 }
