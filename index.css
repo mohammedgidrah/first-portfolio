@@ -14,6 +14,7 @@ header {
     justify-content: space-around;
     height: 70px;
     top: 0px;
+    z-index: 999;
     animation: header;
     animation-duration: 1.5s;
     position: fixed;
@@ -67,7 +68,7 @@ a.cm {
 
 a.Home:hover {
     display: flex;
-    border: solid  rgb(194, 84, 4);
+    border: solid rgb(194, 84, 4);
     border-radius: 25px;
     justify-content: center;
     font-size: 15px;
@@ -77,7 +78,7 @@ a.Home:hover {
 
 a.about:hover {
     display: flex;
-    border: solid  rgb(194, 84, 4);
+    border: solid rgb(194, 84, 4);
     border-radius: 25px;
     justify-content: center;
     font-size: 15px;
@@ -87,7 +88,7 @@ a.about:hover {
 
 a.ex:hover {
     display: flex;
-    border: solid  rgb(194, 84, 4);
+    border: solid rgb(194, 84, 4);
     border-radius: 25px;
     justify-content: center;
     font-size: 15px;
@@ -98,7 +99,7 @@ a.ex:hover {
 a.pr:hover {
 
     font-size: 15px;
-    border: solid  rgb(194, 84, 4);
+    border: solid rgb(194, 84, 4);
     border-radius: 25px;
     justify-content: center;
     align-items: center;
@@ -109,7 +110,7 @@ a.pr:hover {
 a.cm:hover {
     display: flex;
     justify-content: center;
-    border: solid  rgb(194, 84, 4);
+    border: solid rgb(194, 84, 4);
     border-radius: 25px;
     font-size: 15px;
     align-content: center;
@@ -126,7 +127,7 @@ div img.me {
     height: 350px;
     flex-wrap: wrap;
     display: flex;
-   justify-content: center;
+    justify-content: center;
     padding-top: 120px;
 
 }
@@ -161,14 +162,16 @@ div p {
     flex-wrap: wrap;
     width: 600px;
     font-size: 35px;
-  
+
 }
-.p b{
+
+.p b {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-h1 span{
+
+h1 span {
     font-size: 20px;
 
 }
@@ -180,10 +183,9 @@ a.btn.btn-primary {
 }
 
 
- .About {
+.About {
     padding-top: 0px;
     text-align: center;
-
     color: rgb(3, 26, 83);
 }
 
@@ -206,7 +208,7 @@ img {
 .maincard {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .color-card {
@@ -242,7 +244,7 @@ img {
 .first {
     display: flex;
     flex-wrap: wrap;
-    justify-content:center ;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.511);
 }
 
@@ -398,25 +400,33 @@ footer {
         height: 70px;
     }
 }
-@media (max-width:502px){
-    header a{
+
+@media (max-width:502px) {
+    header a {
         font-size: 10px;
     }
 
 }
-@media (max-width:634px){
-    header a{
+
+@media (max-width:634px) {
+    header a {
         width: 50PX;
         font-size: 9PX;
     }
-    .About{
 
+    .About {
+        padding-right: 70px;
         width: 150px;
+    }
+
+    .maincard {
+        padding-left: 40px;
     }
 
 
 }
-@media (max-width:390px){
+
+@media (max-width:390px) {
     a.Home:hover {
         width: 80px;
         font-size: 15px;
@@ -425,6 +435,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
     a.about:hover {
         width: 80px;
         font-size: 15px;
@@ -433,6 +444,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
     a.ex:hover {
         width: 80px;
         font-size: 15px;
@@ -441,6 +453,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
     a.pr:hover {
         width: 80px;
         font-size: 15px;
@@ -449,6 +462,7 @@ footer {
         justify-content: center;
         align-content: center;
     }
+
     a.cm:hover {
         display: flex;
         width: 80px;
