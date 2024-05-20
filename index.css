@@ -21,6 +21,10 @@ header {
 }
 
 .second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.159);
 }
 
@@ -176,10 +180,10 @@ a.btn.btn-primary {
 }
 
 
- p.About {
+ .About {
     padding-top: 0px;
-    display: flex;
-    flex-wrap: wrap;
+    text-align: center;
+
     color: rgb(3, 26, 83);
 }
 
@@ -405,7 +409,7 @@ footer {
         width: 50PX;
         font-size: 9PX;
     }
-    p.About{
+    .About{
 
         width: 150px;
     }
