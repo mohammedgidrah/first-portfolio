@@ -472,3 +472,51 @@ footer {
     }
 
 }
+@media (max-width:431px) {
+    
+    a.Home:hover {
+        width:55px;
+        font-size: 10px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a.about:hover {
+        width:55px;
+        font-size: 10px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a.ex:hover {
+        width:55px;
+        font-size: 10px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a.pr:hover {
+        width:55px;
+        font-size: 10px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    a.cm:hover {
+        width:55px;
+        font-size: 10px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
